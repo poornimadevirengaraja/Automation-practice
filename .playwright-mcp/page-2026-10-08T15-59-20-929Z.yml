@@ -1,0 +1,281 @@
+- generic [ref=f1e2]:
+  - dialog [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - paragraph [ref=f1e5]:
+        - text: We use cookies to improve your experience on our website. Read more in
+        - link "Privacy Policy" [ref=f1e6] [cursor=pointer]:
+          - /url: /privacy-policy#text
+        - text: .
+      - generic [ref=f1e7]:
+        - button "Manage cookies" [ref=f1e8] [cursor=pointer]: Manage
+        - button "Accept Cookies" [ref=f1e9] [cursor=pointer]: Accept cookies
+  - table [ref=f1e10]:
+    - rowgroup [ref=f1e11]:
+      - row [ref=f1e12]:
+        - cell [ref=f1e13]:
+          - generic [ref=f1e14]:
+            - banner [ref=f1e15]:
+              - generic [ref=f1e17]:
+                - link "RESTful API" [ref=f1e23] [cursor=pointer]:
+                  - /url: /
+                - generic [ref=f1e24]:
+                  - link "Rest Fundamentals" [ref=f1e25] [cursor=pointer]:
+                    - /url: /rest-fundamentals#rest
+                  - link "Support Us" [ref=f1e26] [cursor=pointer]:
+                    - /url: /support-us
+                  - link [ref=f1e27] [cursor=pointer]:
+                    - /url: /sign-in
+                    - button "Sign In" [ref=f1e28]
+            - navigation
+      - row [ref=f1e30]:
+        - cell [ref=f1e31]:
+          - generic [ref=f1e32]:
+            - generic [ref=f1e37]:
+              - generic [ref=f1e39]:
+                - heading "Free REST API for Testing & Prototyping" [level=1] [ref=f1e40]
+                - heading "Real REST API which is ready to handle your HTTP requests 24/7 for free. Can be used for your demo projects, testing, learning or even educating someone else" [level=6] [ref=f1e41]
+                - button [ref=f1e43] [cursor=pointer]
+                - generic [ref=f1e47]:
+                  - generic [ref=f1e48]: Public & Private Endpoints
+                  - generic [ref=f1e51]: Full CRUD Support
+                  - generic [ref=f1e54]: CORS Enabled
+              - generic [ref=f1e59]:
+                - generic [ref=f1e60]: "/objects/{id}"
+                - generic [ref=f1e66]:
+                  - generic [ref=f1e67]: GET https://api.restful-api.dev/objects/7
+                  - generic [ref=f1e68]: // 200 OK
+                  - generic [ref=f1e69]: "{"
+                  - generic [ref=f1e70]: "\"id\": \"7\","
+                  - generic [ref=f1e71]: "\"name\": \"Apple MacBook Pro 16\","
+                  - generic [ref=f1e72]: "\"data\": {"
+                  - generic [ref=f1e73]: "\"year\": 2019,"
+                  - generic [ref=f1e74]: "\"price\": 1849.99,"
+                  - generic [ref=f1e75]: "\"CPU model\": \"Intel Core i9\","
+                  - generic [ref=f1e76]: "\"Hard disk size\": \"1 TB\""
+                  - generic [ref=f1e77]: "}"
+                  - generic [ref=f1e78]: "}"
+            - generic [ref=f1e79]:
+              - generic [ref=f1e80]:
+                - heading "Intro" [level=2] [ref=f1e81]
+                - heading "Welcome to our real REST API - a fully functional service backed by a real database. It lets you send, store, and retrieve data through real HTTP requests, providing an experience much like working with a production backend. Its flexible design allows you to create and manage custom data structures, making it easy to simulate realistic REST API behavior for any project." [level=6] [ref=f1e82]
+                - heading [level=6] [ref=f1e83]:
+                  - text: Whether you’re building demos, testing features, or waiting for backend updates, this API helps you generate and test responses as if everything were already live. It offers both
+                  - strong [ref=f1e84]: public
+                  - text: and
+                  - strong [ref=f1e85]: authenticated
+                  - text: access - the public version is open for quick exploration, while the more powerful authenticated version unlocks extra features, endpoints, and flexibility to shape your own data models and collections - perfect if you want to take things a bit further.
+              - generic [ref=f1e87]:
+                - generic [ref=f1e89]:
+                  - heading "Main HTTP Methods Support" [level=3] [ref=f1e93]
+                  - paragraph [ref=f1e94]: "Support all major HTTP methods: GET, POST, PUT, PATCH and DELETE."
+                - generic [ref=f1e96]:
+                  - heading "HTTPS Support" [level=3] [ref=f1e100]
+                  - paragraph [ref=f1e101]: Secure connections via SSL/TLS for all API endpoints.
+                - generic [ref=f1e103]:
+                  - heading "Cross-Origin Requests" [level=3] [ref=f1e107]
+                  - paragraph [ref=f1e108]: CORS enabled for all domains, perfect for frontend development.
+                - generic [ref=f1e110]:
+                  - heading "Flexible Resources Schema" [level=3] [ref=f1e114]
+                  - paragraph [ref=f1e115]: Design any data structures and relationships using nested JSON objects for complete flexibility.
+                - generic [ref=f1e117]:
+                  - heading "Overridable Status Codes" [level=3] [ref=f1e121]
+                  - paragraph [ref=f1e122]: Authenticated endpoints include an optional feature that lets you override the returned HTTP status code to simulate different responses.
+                - generic [ref=f1e124]:
+                  - heading "Always Available" [level=3] [ref=f1e128]
+                  - paragraph [ref=f1e129]: 99.9% uptime ensures reliable access for testing anytime, anywhere.
+            - link [ref=f1e131] [cursor=pointer]:
+              - /url: https://www.apidog.com/?utm_source=blogger&utm_medium=apidev
+              - img "API Dog" [ref=f1e132]
+            - generic [ref=f1e134]:
+              - heading "Available Endpoints" [level=2] [ref=f1e135]
+              - generic [ref=f1e136]:
+                - generic [ref=f1e137]:
+                  - heading "Show endpoints for:" [level=6] [ref=f1e138]
+                  - group [ref=f1e139]:
+                    - button "Authenticated" [pressed] [ref=f1e140] [cursor=pointer]
+                    - button "Public" [ref=f1e141] [cursor=pointer]
+                - list [ref=f1e142]:
+                  - listitem [ref=f1e143]:
+                    - heading [level=3] [ref=f1e145]:
+                      - button "GET https://api.restful-api.dev/collections List all your collections info" [ref=f1e146] [cursor=pointer]:
+                        - generic [ref=f1e148]:
+                          - generic [ref=f1e149]:
+                            - generic [ref=f1e150]: GET
+                            - paragraph [ref=f1e152]: https://api.restful-api.dev/collections
+                          - paragraph [ref=f1e153]: List all your collections info
+                  - listitem [ref=f1e157]:
+                    - heading [level=3] [ref=f1e159]:
+                      - 'button "GET https://api.restful-api.dev/collections/{collectionName}/objects List all objects in a collection" [ref=f1e160] [cursor=pointer]':
+                        - generic [ref=f1e162]:
+                          - generic [ref=f1e163]:
+                            - generic [ref=f1e164]: GET
+                            - paragraph [ref=f1e166]: "https://api.restful-api.dev/collections/{collectionName}/objects"
+                          - paragraph [ref=f1e167]: List all objects in a collection
+                  - listitem [ref=f1e171]:
+                    - heading [level=3] [ref=f1e173]:
+                      - 'button "GET https://api.restful-api.dev/collections/{collectionName}/objects/{id} Single object from a collection" [ref=f1e174] [cursor=pointer]':
+                        - generic [ref=f1e176]:
+                          - generic [ref=f1e177]:
+                            - generic [ref=f1e178]: GET
+                            - paragraph [ref=f1e180]: "https://api.restful-api.dev/collections/{collectionName}/objects/{id}"
+                          - paragraph [ref=f1e181]: Single object from a collection
+                  - listitem [ref=f1e185]:
+                    - heading [level=3] [ref=f1e187]:
+                      - 'button "POST https://api.restful-api.dev/collections/{collectionName}/objects Add a new object to a collection" [ref=f1e188] [cursor=pointer]':
+                        - generic [ref=f1e190]:
+                          - generic [ref=f1e191]:
+                            - generic [ref=f1e192]: POST
+                            - paragraph [ref=f1e194]: "https://api.restful-api.dev/collections/{collectionName}/objects"
+                          - paragraph [ref=f1e195]: Add a new object to a collection
+                  - listitem [ref=f1e199]:
+                    - heading [level=3] [ref=f1e201]:
+                      - 'button "PUT https://api.restful-api.dev/collections/{collectionName}/objects/{id} Update an object in a collection" [ref=f1e202] [cursor=pointer]':
+                        - generic [ref=f1e204]:
+                          - generic [ref=f1e205]:
+                            - generic [ref=f1e206]: PUT
+                            - paragraph [ref=f1e208]: "https://api.restful-api.dev/collections/{collectionName}/objects/{id}"
+                          - paragraph [ref=f1e209]: Update an object in a collection
+                  - listitem [ref=f1e213]:
+                    - heading [level=3] [ref=f1e215]:
+                      - 'button "PATCH https://api.restful-api.dev/collections/{collectionName}/objects/{id} Partially update an object in a collection" [ref=f1e216] [cursor=pointer]':
+                        - generic [ref=f1e218]:
+                          - generic [ref=f1e219]:
+                            - generic [ref=f1e220]: PATCH
+                            - paragraph [ref=f1e222]: "https://api.restful-api.dev/collections/{collectionName}/objects/{id}"
+                          - paragraph [ref=f1e223]: Partially update an object in a collection
+                  - listitem [ref=f1e227]:
+                    - heading [level=3] [ref=f1e229]:
+                      - 'button "DELETE https://api.restful-api.dev/collections/{collectionName}/objects/{id} Delete an object from a collection" [ref=f1e230] [cursor=pointer]':
+                        - generic [ref=f1e232]:
+                          - generic [ref=f1e233]:
+                            - generic [ref=f1e234]: DELETE
+                            - paragraph [ref=f1e236]: "https://api.restful-api.dev/collections/{collectionName}/objects/{id}"
+                          - paragraph [ref=f1e237]: Delete an object from a collection
+                  - listitem [ref=f1e241]:
+                    - heading [level=3] [ref=f1e243]:
+                      - button "POST https://api.restful-api.dev/register Register a new user account" [ref=f1e244] [cursor=pointer]:
+                        - generic [ref=f1e246]:
+                          - generic [ref=f1e247]:
+                            - generic [ref=f1e248]: POST
+                            - paragraph [ref=f1e250]: https://api.restful-api.dev/register
+                          - paragraph [ref=f1e251]: Register a new user account
+                  - listitem [ref=f1e255]:
+                    - heading [level=3] [ref=f1e257]:
+                      - button "POST https://api.restful-api.dev/login Authenticate an existing user" [ref=f1e258] [cursor=pointer]:
+                        - generic [ref=f1e260]:
+                          - generic [ref=f1e261]:
+                            - generic [ref=f1e262]: POST
+                            - paragraph [ref=f1e264]: https://api.restful-api.dev/login
+                          - paragraph [ref=f1e265]: Authenticate an existing user
+              - button [ref=f1e270] [cursor=pointer]
+            - generic [ref=f1e276]:
+              - generic [ref=f1e277]:
+                - heading "How to Use It" [level=2] [ref=f1e278]
+                - paragraph [ref=f1e279]: Get started with our REST API in your favorite programming language. Choose from the examples below.
+              - generic [ref=f1e280]:
+                - tablist [ref=f1e285]:
+                  - tab "JavaScript" [selected] [ref=f1e286] [cursor=pointer]
+                  - tab "Java" [ref=f1e287] [cursor=pointer]
+                  - tab "Python" [ref=f1e288] [cursor=pointer]
+                - generic [ref=f1e290]:
+                  - button [ref=f1e291] [cursor=pointer]
+                  - code [ref=f1e295]:
+                    - generic [ref=f1e296]: "1"
+                    - text: // Using Fetch API
+                    - generic [ref=f1e297]: "2"
+                    - text: fetch('https://api.restful-api.dev/objects')
+                    - generic [ref=f1e298]: "3"
+                    - text: .then(response => response.json())
+                    - generic [ref=f1e299]: "4"
+                    - text: .then(data => console.log('GET Response:', data))
+                    - generic [ref=f1e300]: "5"
+                    - text: .catch(error => console.error('Error:', error));
+                    - generic [ref=f1e301]: "6"
+                    - generic [ref=f1e302]: "7"
+                    - text: // POST request
+                    - generic [ref=f1e303]: "8"
+                    - text: "fetch('https://api.restful-api.dev/objects', {"
+                    - generic [ref=f1e304]: "9"
+                    - text: "method: 'POST',"
+                    - generic [ref=f1e305]: "10"
+                    - text: "headers: {"
+                    - generic [ref=f1e306]: "11"
+                    - text: "'Content-Type': 'application/json',"
+                    - generic [ref=f1e307]: "12"
+                    - text: "},"
+                    - generic [ref=f1e308]: "13"
+                    - text: "body: JSON.stringify({"
+                    - generic [ref=f1e309]: "14"
+                    - text: "name: 'Apple MacBook Pro 16',"
+                    - generic [ref=f1e310]: "15"
+                    - text: "data: {"
+                    - generic [ref=f1e311]: "16"
+                    - text: "year: 2019,"
+                    - generic [ref=f1e312]: "17"
+                    - text: "price: 1849.99,"
+                    - generic [ref=f1e313]: "18"
+                    - text: "'CPU model': 'Intel Core i9',"
+                    - generic [ref=f1e314]: "19"
+                    - text: "'Hard disk size': '1 TB'"
+                    - generic [ref=f1e315]: "20"
+                    - text: "}"
+                    - generic [ref=f1e316]: "21"
+                    - text: "})"
+                    - generic [ref=f1e317]: "22"
+                    - text: "})"
+                    - generic [ref=f1e318]: "23"
+                    - text: .then(response => response.json())
+                    - generic [ref=f1e319]: "24"
+                    - text: .then(data => console.log('POST Response:', data));
+            - generic [ref=f1e321]:
+              - generic [ref=f1e322]:
+                - heading "Frequently Asked Questions" [level=2] [ref=f1e323]
+                - paragraph [ref=f1e324]: Find answers to common questions about our REST API service.
+              - generic [ref=f1e325]:
+                - heading [level=3] [ref=f1e327]:
+                  - button [ref=f1e328] [cursor=pointer]:
+                    - paragraph [ref=f1e330]: What is the difference between public and authenticated endpoints?
+                - heading [level=3] [ref=f1e335]:
+                  - button [ref=f1e336] [cursor=pointer]:
+                    - paragraph [ref=f1e338]: Can I modify or delete data?
+                - heading [level=3] [ref=f1e343]:
+                  - button [ref=f1e344] [cursor=pointer]:
+                    - paragraph [ref=f1e346]: Does the API support CORS?
+                - heading [level=3] [ref=f1e351]:
+                  - button [ref=f1e352] [cursor=pointer]:
+                    - paragraph [ref=f1e354]: Is this API free to use?
+                - heading [level=3] [ref=f1e359]:
+                  - button [ref=f1e360] [cursor=pointer]:
+                    - paragraph [ref=f1e362]: What HTTP methods are supported?
+                - heading [level=3] [ref=f1e367]:
+                  - button [ref=f1e368] [cursor=pointer]:
+                    - paragraph [ref=f1e370]: Can I override the response status code?
+                - heading [level=3] [ref=f1e375]:
+                  - button [ref=f1e376] [cursor=pointer]:
+                    - paragraph [ref=f1e378]: Can I suggest new features or endpoints?
+              - generic [ref=f1e382]:
+                - heading "Still have questions?" [level=6] [ref=f1e383]
+                - paragraph [ref=f1e384]: Can't find the answer you're looking for? Feel free to reach out.
+                - link "Contact Us →" [ref=f1e385] [cursor=pointer]:
+                  - /url: /contact
+      - row [ref=f1e386]:
+        - 'cell "Home About Contact Privacy Policy DigitalOcean Referral Badge © 2026 Copyright: restful-api.dev" [ref=f1e387]':
+          - contentinfo [ref=f1e389]:
+            - generic [ref=f1e390]:
+              - list [ref=f1e391]:
+                - listitem [ref=f1e392]:
+                  - link "Home" [ref=f1e393] [cursor=pointer]:
+                    - /url: /
+                - listitem [ref=f1e394]:
+                  - link "About" [ref=f1e395] [cursor=pointer]:
+                    - /url: /about
+                - listitem [ref=f1e396]:
+                  - link "Contact" [ref=f1e397] [cursor=pointer]:
+                    - /url: /contact
+                - listitem [ref=f1e398]:
+                  - link "Privacy Policy" [ref=f1e399] [cursor=pointer]:
+                    - /url: /privacy-policy
+              - link [ref=f1e401] [cursor=pointer]:
+                - /url: https://www.digitalocean.com/?refcode=4ad9734878c9&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge
+                - img "DigitalOcean Referral Badge" [ref=f1e402]
+            - generic [ref=f1e403]: "© 2026 Copyright: restful-api.dev"

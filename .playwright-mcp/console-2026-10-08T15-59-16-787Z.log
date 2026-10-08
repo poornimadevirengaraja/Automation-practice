@@ -1,0 +1,7 @@
+[   50445ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.restful-api.dev/objects/ff808181a09d98f701a11c3dd8f522a3:0
+[   61162ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.restful-api.dev/objects/missing-1791475217632-7cad4aa95632f8:0
+[   61530ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.restful-api.dev/objects/missing-1791475217632-7cad4aa95632f8:0
+[   61531ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.restful-api.dev/objects/missing-1791475217632-7cad4aa95632f8:0
+[   61532ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.restful-api.dev/objects/missing-1791475217632-7cad4aa95632f8:0
+[   67424ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://api.restful-api.dev/objects:0
+[  214310ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://api.restful-api.dev/objects:0

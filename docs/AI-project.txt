@@ -1,0 +1,91 @@
+1. Create one folder with the name AI-automation-project. 
+2. Open VS Code in the dedicated automation project folder. .
+3. Open the terminal in the AI automation project folder. 
+4. Install Playwright with the given command: 
+   `npm init playwright@latest`. 
+5. Go with all default options while installing Playwright. 
+   -> Continue pressing the Enter button and complete the installation. 
+
+6. Install Playwright custom agent with the below. 
+   -> npx playwright init-agents --loop=vscode
+
+7. Once agent installation is done, inside the .git folder, 
+   there will be one agent folder. All the playwright agent MD files will
+    be available inside the agents folder. 
+    There are three agent files:
+    1. Playwright test generator
+    2. Playwright test healer
+    3. Playwright test planner
+
+8. There is a .vscode folder, and inside it, one file exists: mcp.json. 
+   This is the MCP server configuration file. There, 
+   we have to start the configurations for the MCP server. 
+   -> Go to the .VSCode folder and open the mcp.json file inside it. 
+   -> Click on the Start button to start the Playwright MCP server.
+
+9. Select Playwright Test Planner agent in the AI chat window 
+  and provide the below prompt. It will go through the entire 
+  website and create an end-to-end test plan in an .md file. 
+
+ 10. Prompts 
+--------------------------------
+
+  agent name: playwright-test-planner.
+  prompt : Write a comprehensive end-to-end test plan for the given website and go through each and every component of the website. Make sure nothing is missed. 
+   https://www.saucedemo.com/
+
+  it will create saucedemo-e2e-test-plan.md file in specs folder.
+
+--------------------------------
+  agent name: playwright-test-generator
+  prompt : impliment ### 1. Authentication and Account Variants
+Create a pom structure, and make sure the following important folders are outside of the test folder:
+- tests
+- test data
+- fixtures
+- pages
+- utils
+- common - base.ts and pagemanger.ts
+This means the test folder, test data, fixtures, pages, and utils folder should be on the same level. Maintain the coding standard as per the enterprise-level framework.
+--------------------------------
+agent-name : playwright-test-healer
+Execute all the test cases and fix the failures. 
+--------------------------------
+
+impliment ### 2. Inventory, Product Details, and Sorting
+- Create a excel file testdata for this and add test in that file
+- Create a utility to read values from excel
+--------------------------------
+
+various Test data creation:
+===========================
+json file:
+prompt - access testdata only using json file and delete the excel test data in test data folder and alter the tests accordingly
+--------------------------------------
+ts file:
+prompt - create the testdata as ts file in testdata folder and run the test
+-------------------------------------
+Excel file and convert to json file:
+prompt - create the testdata in excel and convert to json and use it in the spec.ts
+-------------------------------------
+
+
+.env file creation:
+===================
+prompt : create .env.stage, .env.qa, .env.prod files to access url saucedemo.com and run the script
+-------------------------------------------
+how to Run all tests with the QA environment: (all browsers selected)
+npm run test:qa
+
+To run only Chromium:
+npm run test:qa -- --project=chromium
+--------------------------------------
+
+Prompt for Alllure Report - Generate allure report for all the tests and open the report
+=========================
+how to open allure report for the test run:
+npm run test:qa -- --reporter=line,allure-playwright
+npx allure generate allure-results --clean -o allure-report
+npx allure open allure-report
+
+--------------------------------------
