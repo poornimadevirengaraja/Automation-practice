@@ -57,13 +57,18 @@ function uniqueValue(prefix: string) {
 }
 
 test.describe('Public REST API', () => {
-  test('covers public object retrieval, CRUD, validation, HTTPS, and CORS', async ({ request, page }) => {
+  test('covers public object retrieval, CRUD, validation, HTTPS, and CORS', async ({ request, page, browserName }) => {
+    test.skip(
+      browserName !== 'chromium',
+      'The API contract checks are browser-independent; run them once to avoid contention on the shared public API.',
+    );
+
     const api = new PublicApiPage(request);
 
     // 1. List the public sample objects over HTTPS and validate their documented shape.
     expect(new URL(API_BASE_URL).protocol).toBe('https:');
     const listResponse = await api.listObjects();
-    expect(listResponse.status()).toBe(200);
+    expect(listResponse.status(), await listResponse.text()).toBe(200);
     const objects = await listResponse.json();
     expect(Array.isArray(objects)).toBe(true);
     expect(objects.length).toBeGreaterThan(0);
